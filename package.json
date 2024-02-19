@@ -1,0 +1,25 @@
+{
+    "name": "demo2",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "tauri": "tauri dev",
+        "build2": "tauri build",
+        "debug": "tauri build --debug"
+    },
+    "dependencies": {
+        "@tauri-apps/api": "^1.5.2",
+        "dayjs": "1.11.9",
+        "js-md5": "^0.8.3"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^1.5.8",
+        "@types/bootstrap": "^5.2.10",
+        "typescript": "^5.0.2",
+        "vite": "^5.0.0"
+    }
+}
